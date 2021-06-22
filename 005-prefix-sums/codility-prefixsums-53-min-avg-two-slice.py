@@ -10,7 +10,7 @@ def solution(A):
 
     min_average = 99999
     min_slice = 999999
-    
+
     # note: this relies on the mathematical concept that a slice with the lowest
     # average can always be found to be composed of other subslices of length 2
     # or 3 within the main slice
